@@ -77,7 +77,7 @@ st.plotly_chart(fig2)
 
 st.markdown('''
 #### Um oferecimento de:
-**Meteorol. Me. [Willy Hagi](https://taggo.one/willyhagi)** / [**Meteonorte**.](http://meteonorte.com/)
+**Meteorol. Me. [Willy Hagi (CREA-AM 32258)](https://taggo.one/willyhagi)** / [**Meteonorte**.](http://meteonorte.com/)
 
 Fonte de dados: Porto de Manaus.
 
