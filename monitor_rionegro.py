@@ -53,7 +53,8 @@ fig1 = px.bar(rionegro, x='Data', y="Cota (m)", range_y=(21, 31), height=600,
 
 fig1.update_xaxes(tickformat="%d/%B", dtick='M1', tickmode='array',
                  tickvals=['2021-01-01', '2021-02-01', '2021-03-01',
-                           '2021-04-01', '2021-05-01', '2021-06-01'],
+                           '2021-04-01', '2021-05-01', '2021-06-01',
+                           '2021-07-01'],
                  ticktext=['Janeiro', 'Fevereiro', 'Março', 'Abril',
                            'Maio', 'Junho', 'Julho'])
 st.plotly_chart(fig1)
@@ -69,7 +70,8 @@ fig2 = px.area(rionegro, x='Data', y="Variação (cm)", height=600,
 
 fig2.update_xaxes(tickformat="%d/%B", dtick='M1', tickmode='array',
                  tickvals=['2021-01-01', '2021-02-01', '2021-03-01',
-                           '2021-04-01', '2021-05-01', '2021-06-01'],
+                           '2021-04-01', '2021-05-01', '2021-06-01',
+                           '2021-07-01'],
                  ticktext=['Janeiro', 'Fevereiro', 'Março', 'Abril',
                            'Maio', 'Junho', 'Julho'])
 st.plotly_chart(fig2)
