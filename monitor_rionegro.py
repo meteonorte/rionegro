@@ -55,7 +55,7 @@ fig1.update_xaxes(tickformat="%d/%B", dtick='M1', tickmode='array',
                  tickvals=['2021-01-01', '2021-02-01', '2021-03-01',
                            '2021-04-01', '2021-05-01', '2021-06-01'],
                  ticktext=['Janeiro', 'Fevereiro', 'Março', 'Abril',
-                           'Maio', 'Junho'])
+                           'Maio', 'Junho', 'Julho])
 st.plotly_chart(fig1)
 
 # gráfico 2
